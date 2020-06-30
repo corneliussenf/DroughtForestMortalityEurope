@@ -40,8 +40,9 @@ for (i in 1:nrow(country_master)) {
   
   print(cntr)
   
-  disturbance <- raster(paste0("../prediction/", cntr, "/disturbance_year_filtered_", cntr, ".tif"))
-  forest <- raster(paste0("../prediction/", cntr, "/prediction_forestcover_", cntr, ".tif"))
+  # The following code needs disturbance maps downloaded from 10.5281/zenodo.3924381
+  disturbance <- raster(paste0("disturbance_maps/", cntr, "/disturbance_year_1986-2016_", cntr, ".tif"))
+  forest <- raster(paste0("disturbance_maps/", cntr, "/forestcover_", cntr, ".tif"))
   
   ext <- as(extent(disturbance), 'SpatialPolygons')
   proj4string(ext) <- projection(disturbance)
