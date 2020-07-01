@@ -1,6 +1,3 @@
 # Excess forest mortality is consistently linked to drought across Europe
 
-Code used in following paper: Senf and Seidl (2020) Mapping the forest disturbance regimes of Europe. 
-Under revision, preprint available under: https://doi.org/10.1101/2020.03.30.015875
-
-Data available under: https://doi.org/10.5281/zenodo.3924656
+All codes to reprodice the analysis of a pper on excess forest mortality and how it is related to drought. Data available under: https://doi.org/10.5281/zenodo.3924656
